@@ -31,8 +31,14 @@
 </head>
 
 <body>
-  <%= yield %>
-
+  <div id="canvas">
+    <div id="box_wrapper">
+      <%= render 'shared/header' %>
+      <%= yield %>
+      <%= render 'shared/footer' %>
+      <%= render 'shared/copyright' %>
+    </div>
+  </div>
 </body>
 
 </html>
