@@ -1,2 +1,155 @@
-<h1>Pages#home</h1>
-<p>Find me in app/views/pages/home.html.erb</p>
+<!--[if lt IE 9]>
+  <div class="bg-danger text-center">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/" class="color-main">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+
+<div class="preloader">
+  <div class="preloader_image"></div>
+</div>
+
+<!-- search modal -->
+<div class="modal" tabindex="-1" role="dialog" aria-labelledby="search_modal" id="search_modal">
+  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+    <span aria-hidden="true">&times;</span>
+  </button>
+  <div class="widget widget_search">
+    <form method="get" class="searchform search-form" action="/">
+      <div class="form-group">
+        <input type="text" value="" name="search" class="form-control" placeholder="Search keyword" id="modal-search-input">
+      </div>
+      <button type="submit" class="btn">Search</button>
+    </form>
+  </div>
+</div>
+
+<!-- Unyson messages modal -->
+<div class="modal fade" tabindex="-1" role="dialog" id="messages_modal">
+  <div class="fw-messages-wrap ls p-normal">
+    <!-- Uncomment this UL with LI to show messages in modal popup to your user: -->
+    <!--
+  <ul class="list-unstyled">
+    <li>Message To User</li>
+  </ul>
+  -->
+
+  </div>
+</div>
+<!-- eof .modal -->
+
+<!-- wrappers for visual page editor and boxed version of template -->
+<div id="canvas">
+  <div id="box_wrapper">
+
+    <!-- template sections -->
+
+    <!--topline section visible only on small screens|-->
+
+
+    <!-- header with three Bootstrap columns - left for logo, center for navigation and right for includes-->
+    <div class="header_absolute">
+      <header class="page_header ds justify-nav-center">
+        <div class="container-fluid">
+          <div class="row align-items-center">
+            <div class="col-xl-2 col-lg-3 col-11">
+              <a href="./" class="logo">
+                <img src="images/logo.png" alt="">
+                <span class="logo-text color-darkgrey">Ferrum</span>
+              </a>
+            </div>
+            <div class="col-xl-8 col-lg-6 col-1 text-sm-center">
+              <!-- main nav start -->
+              <nav class="top-nav">
+                <ul class="nav sf-menu">
+                  <li>
+                    <a href="#box_wrapper">Home</a>
+                    <ul>
+                      <li>
+                        <a href="index.html">MultiPage</a>
+                      </li>
+                      <li>
+                        <a href="index_static.html">Static Intro</a>
+                      </li>
+                      <li>
+                        <a href="index_singlepage.html">Single Page</a>
+                      </li>
+                    </ul>
+                  </li>
+
+                  <li>
+                    <a href="#about">About</a>
+                  </li>
+
+                  <li>
+                    <a href="#gallery">Gallery</a>
+                  </li>
+                  <li>
+                    <a href="#services">Services</a>
+                  </li>
+                  <li>
+                    <a href="#founder">Founder</a>
+                  </li>
+                  <li>
+                    <a href="#team">Team</a>
+                  </li>
+                  <li>
+                    <a href="#contacts">Contacts</a>
+                  </li>
+                  <li>
+                    <a href="#blog">Blog</a>
+                  </li>
+
+                </ul>
+              </nav>
+              <!-- eof main nav -->
+            </div>
+            <div class="col-xl-2 col-lg-3 text-md-left text-xl-right d-none d-lg-block">
+
+              <ul class="top-includes">
+
+
+                <li>
+
+                  <span class="social-icons">
+                    <a href="#" class="fa fa-facebook border-icon rounded-icon" title="facebook"></a>
+                    <a href="#" class="fa fa-twitter border-icon rounded-icon" title="twitter"></a>
+                    <a href="#" class="fa fa-google border-icon rounded-icon" title="google"></a>
+                  </span>
+                </li>
+
+
+              </ul>
+
+            </div>
+          </div>
+        </div>
+        <!-- header toggler -->
+        <span class="toggle_menu">
+          <span></span>
+        </span>
+      </header>
+    </div>
+
+    <%= render 'page-slider' %>
+
+    <%= render 'about' %>
+
+    <%= render 'gallery' %>
+
+    <%= render 'services' %>
+
+    <%= render 'founder' %>
+
+    <%= render 'team' %>
+
+    <%= render 'contacts' %>
+
+    <%= render 'blog' %>
+
+    <%= render 'shared/footer' %>
+
+    <%= render 'shared/copyright' %>
+
+
+  </div>
+  <!-- eof #box_wrapper -->
+</div>
+<!-- eof #canvas -->
