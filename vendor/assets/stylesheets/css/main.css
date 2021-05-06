@@ -25,12 +25,12 @@ Background color for dark muted section (.ds.ms): #252525
 Border colors for elements in light section (and .bordered elements): #e1e1e1, rgba(0, 0, 0, 0.1)
 Background color for elements in light section (.hero-bg): #f5f5f5
 
-Dark section (.ds) colors: 
+Dark section (.ds) colors:
 Text color in dark section: #9a9a9a
 Border colors for elements in dark section: #454545
 Background color for elements in dark section (.hero-bg): rgba(255, 255, 255, 0.05)
 
-Color section (.cs) colors: 
+Color section (.cs) colors:
 Background color for elements in color section: rgba(255, 255, 255, 0.1)
 Border color for elements in color section: rgba(255, 255, 255, 0.15)
 
@@ -2381,7 +2381,7 @@ html[xmlns] .slides {
 
 */
 /*
-	
+
 	1. Buttons
 
  */
@@ -2678,7 +2678,7 @@ a.pswp__share--download:hover {
 }
 
 /*
-	
+
 	4. Caption
 
  */
@@ -2870,7 +2870,7 @@ a.pswp__share--download:hover {
 }
 
 /*
-	
+
 	6. Additional styles
 
  */
@@ -3017,8 +3017,8 @@ a.pswp__share--download:hover {
 	margin-top: 0;
 }
 
-/* 
-** Time Table 
+/*
+** Time Table
 */
 #timetable span {
 	display: block;
@@ -3057,7 +3057,7 @@ a.pswp__share--download:hover {
 	color: #fff;
 }
 
-/* 
+/*
 ** toTop
 */
 #toTop {
@@ -14718,7 +14718,7 @@ body.active-side-header.slide-right .page_header_side {
 	}
 }
 
-/* 
+/*
 ** Intro Section Styles
 */
 .page_slider {
@@ -15954,7 +15954,7 @@ h4.entry-title {
 	}
 }
 
-/* 
+/*
 ** Template Specific Styles
 */
 #box_wrapper > section,
@@ -16642,7 +16642,7 @@ mark {
 }
 
 .contact-form.main-from {
-	background-image: url("../img/form-bg.jpg");
+	/*background-image: url('form-bg.jpg');*/
 }
 
 h2.header-section {

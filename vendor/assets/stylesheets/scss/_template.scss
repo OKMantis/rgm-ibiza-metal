@@ -1,4 +1,4 @@
-/* 
+/*
 ** Template Specific Styles
 */
 
@@ -496,7 +496,7 @@ mark {
     font-size: 12px;
   }
   .link {
-    border-top: 1px solid #222c35; 
+    border-top: 1px solid #222c35;
     padding: 27px 0;
     .btn.btn-link {
       font-weight: 400;
@@ -587,10 +587,6 @@ mark {
   }
 }
 
-.contact-form.main-from {
-  background-image: url("../img/form-bg.jpg");
-}
-
 h2.header-section {
   font-weight: 100;
   margin-bottom: 42px;
@@ -648,7 +644,7 @@ h2.header-section {
    @media(max-width: 991px) {
     button {
       margin-bottom: 40px;
-    } 
+    }
     .contact-icon {
       padding: 0;
     }
@@ -684,7 +680,7 @@ h2.header-section {
 
 .blog-carousel {
   h4.entry-title {
-    font-weight: 500;    
+    font-weight: 500;
     line-height: 23px;
   }
   .entry-meta {
@@ -696,7 +692,7 @@ h2.header-section {
       display: table-cell;
       width: 100px;
       border-right: 1px solid #222c35;
-      
+
       &:last-child {
         border: 0;
       }
@@ -713,7 +709,7 @@ h2.header-section {
       margin-bottom: 20px;
     }
   }
-}     
+}
 
 .gallery-title {
   font-size: 25px;
@@ -731,7 +727,7 @@ h2.header-section {
 }
 
 .pricing a.btn.btn-outline-maincolor {
-  background-color: #222c35; 
+  background-color: #222c35;
   &:hover {
     background-color: $colorMain;
     color: #222c35;
@@ -830,7 +826,7 @@ h4.margin {
 .page_footer.layout2 {
    .side-icon-box .icon-styled + .media-body {
     margin-left: 20px;
-    margin-top: 5px; 
+    margin-top: 5px;
   }
     @media (max-width: 767px) {
     .widget.widget_social_buttons  {
@@ -892,7 +888,7 @@ blockquote.blockquote {
 }
 
 .page_footer.social-icons-footer .col-md-12 .widget_social_buttons a {
- transform: none; 
+ transform: none;
  margin: 0 4px;
 }
 
