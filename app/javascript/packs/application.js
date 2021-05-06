@@ -21,10 +21,6 @@ ActiveStorage.start()
 // External imports
 import "bootstrap";
 
-require('./compressed')
-require('./bootstrap.addons')
-require('./main')
-
 // Internal imports, e.g:
 // import { initSelect2 } from '../components/init_select2';
 
