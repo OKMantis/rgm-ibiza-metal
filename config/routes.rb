@@ -4,4 +4,6 @@ Rails.application.routes.draw do
   # For details on the DSL available within this file, see https://guides.rubyonrails.org/routing.html
 
   get 'about', to: 'pages#about', as: :about
+  get 'gallery', to: 'pages#gallery', as: :gallery
+  get 'gallery-single', to: 'pages#gallery-single', as: :gallery_single
 end
