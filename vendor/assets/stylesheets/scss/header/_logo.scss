@@ -7,7 +7,7 @@ a.logo {
   img {
     display: inline-block;
     //limit logo - who knows what image user will use
-    max-height: 80px;
+    max-height: 150px !important;
     @media(max-width: 767px) {
       max-height: 45px;
     }
