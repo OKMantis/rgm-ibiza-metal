@@ -5,4 +5,5 @@ Rails.application.routes.draw do
 
   get 'about', to: 'pages#about', as: :about
   get 'gallery', to: 'pages#gallery', as: :gallery
+  get 'gallery-single', to: 'pages#gallery-single', as: :gallery_single
 end

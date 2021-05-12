@@ -7,6 +7,9 @@ class PagesController < ApplicationController
   def gallery
   end
 
+  def gallery_single
+  end
+
   def about
   end
 end
