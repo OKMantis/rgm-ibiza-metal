@@ -457,7 +457,7 @@ mark {
 }
 
 .breadcrumbs {
-  background-image: url("../img/breadcrumbs.jpg");
+  background-image: url('<%= cl_image_path "shutterstock_52543036_rw187q" %>');
 }
 
 .single-service {
