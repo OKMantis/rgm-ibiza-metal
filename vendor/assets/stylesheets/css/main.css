@@ -16470,7 +16470,9 @@ mark {
 }
 
 .breadcrumbs {
-	background-image: url("../img/breadcrumbs.jpg");
+  background-size: cover !important;
+  background-position: center !important;
+	background-image: url('https://res.cloudinary.com/rgm-ibiza-metal/image/upload/v1620925902/michael-48yI_ZyzuLo-unsplash_ogearo.jpg') !important;
 }
 
 .single-service img {
