@@ -8,7 +8,7 @@
           <%#= image_tag "icon-01.png", alt: "alttext" %>
 
           <h5>
-            <a href="service-single.html">Carpintería y estructuras metálicas</a>
+            <%= link_to "Carpintería de aluminio y cristaleria", service_1_path, data: { turbolinks: false }  %>
           </h5>
 
           <p>
@@ -25,7 +25,7 @@
           <%#= image_tag "icon-02.png", alt: "alttext" %>
 
           <h5>
-            <a href="service-single.html">Acero inox</a>
+            <%= link_to "Estructuras metálicas", service_2_path, data: { turbolinks: false }  %>
           </h5>
 
           <p>
@@ -42,7 +42,7 @@
           <%#= image_tag "icon-03.png", alt: "alttext" %>
 
           <h5>
-            <a href="service-single.html">Carpintería de aluminio y cristaleria</a>
+            <%= link_to "Soldadores", service_3_path, data: { turbolinks: false }  %>
           </h5>
 
           <p>
@@ -59,7 +59,7 @@
           <%#= image_tag "icon-04.png", alt: "alttext" %>
 
           <h5>
-            <a href="service-single.html">Cortinas de  cristal LUMON</a>
+            <%= link_to "Cortinas de cristal LUMON", service_4_path, data: { turbolinks: false }  %>
           </h5>
 
           <p>
@@ -70,7 +70,22 @@
         </div>
       </div>
       <!-- .col-* -->
+      <div class="col-12 col-md-6 col-lg-3 animate" data-animation="fadeInUp">
 
+        <div class="icon-box text-center">
+          <%#= image_tag "icon-04.png", alt: "alttext" %>
+
+          <h5>
+            <%= link_to "Muebles", service_5_path, data: { turbolinks: false }  %>
+          </h5>
+
+          <p>
+            In every cut and angle, materials match project specs to ensure adherence timelines and sequencing.
+          </p>
+
+
+        </div>
+      </div>
       <div class="d-none d-lg-block divider-25"></div>
 
     </div>
