@@ -1,32 +1,6 @@
-<section class="page_title ds s-pt-100 s-pb-50 s-pt-md-75 s-pb-md-25 breadcrumbs">
-  <div class="container">
-    <div class="row">
+<%= render 'breadcrumbs' %>
 
-      <div class="d-none d-lg-block divider-90"></div>
-
-      <div class="col-md-12 text-center">
-        <h1>Gallery Regular</h1>
-        <ol class="breadcrumb">
-          <li class="breadcrumb-item">
-            <a href="./">Home</a>
-          </li>
-          <li class="breadcrumb-item">
-            <a href="#">Pages</a>
-          </li>
-          <li class="breadcrumb-item active">
-            Gallery Regular
-          </li>
-        </ol>
-      </div>
-
-      <div class="d-none d-lg-block divider-15"></div>
-
-    </div>
-  </div>
-</section>
-
-
-<section class="ds s-pt-60 s-pb-75 s-pb-md-100 s-pb-lg-75 s-py-lg-50">
+<section class="ds s-pt-60 s-pb-75 s-pb-md-100 s-pb-lg-75 s-py-lg-50 container-px-0">
   <div class="container">
     <div class="row">
 
@@ -34,284 +8,30 @@
 
       <div class="col-lg-12">
         <div class="row justify-content-center">
-          <div class="col-md-10 col-xl-7">
+          <div class="col-md-10 col-xl-8">
             <div class="filters gallery-filters small-text text-lg-right">
-              <a href="#" data-filter="*" class="active selected">All</a>
-              <a href="#" data-filter=".decorative">decorative</a>
-              <a href="#" data-filter=".facades">facades</a>
-              <a href="#" data-filter=".perforated">perforated</a>
-              <a href="#" data-filter=".railings">railings</a>
+              <a href="#" data-filter="*" class="active selected">Todos</a>
+              <a href="#" data-filter=".carpinteria">aluminio y cristalería</a>
+              <a href="#" data-filter=".estructuras">estructuras metálicas</a>
+              <a href="#" data-filter=".puertas">puertas</a>
+              <a href="#" data-filter=".muebles">muebles</a>
+              <a href="#" data-filter=".lumon">cortinas de cristal LUMON</a>
+              <a href="#" data-filter=".barandillas">barandillas</a>
             </div>
           </div>
         </div>
-
 
         <div class="row isotope-wrapper masonry-layout c-mb-30" data-filters=".gallery-filters">
 
-          <div class="col-xl-4 col-md-6 col-12 facades ">
-
-            <div class="vertical-item item-gallery content-absolute text-center ds">
-              <div class="item-media">
-                <%= cl_image_tag "puertas_correderas_con_motor_tocyea", height: 480, width: 480, crop: "fill" %>
-                <div class="media-links">
-                  <div class="links-wrap">
-                    <a class="link-zoom photoswipe-link" title="" href="https://res.cloudinary.com/rgm-ibiza-metal/image/upload/v1620801938/puertas_correderas_con_motor_tocyea.jpg"></a>
-                    <%= link_to "", gallery_single_path, class: "link-anchor"  %>
-                  </div>
-                </div>
-              </div>
-              <div class="item-content gradientdarken-background">
-                <h4>
-                  <%= link_to "Lorem ipsum dolor sit", gallery_single_path, class: "link-anchor"  %>
-                </h4>
-              </div>
-            </div>
-
-          </div>
-
-          <div class="col-xl-4 col-md-6 col-12 railings decorative">
-            <div class="vertical-item item-gallery content-absolute text-center ds">
-              <div class="item-media">
-                <%= cl_image_tag "puertas_correderas_corten_e2ke94", height: 480, width: 480, crop: "fill" %>
-                <div class="media-links">
-                  <div class="links-wrap">
-                    <a class="link-zoom photoswipe-link" title="" href="https://res.cloudinary.com/rgm-ibiza-metal/image/upload/v1620801938/puertas_correderas_corten_e2ke94.jpg"></a>
-                    <%= link_to "", gallery_single_path, class: "link-anchor"  %>
-                  </div>
-                </div>
-              </div>
-              <div class="item-content gradientdarken-background">
-                <h4>
-                  <%= link_to "Lorem ipsum dolor sit", gallery_single_path, class: "link-anchor"  %>
-                </h4>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-xl-4 col-md-6 col-12 perforated  railings">
-            <div class="vertical-item item-gallery content-absolute text-center ds">
-              <div class="item-media">
-                <%= cl_image_tag "puertas_pds_can_dreams_kv1bqu", height: 480, width: 480, crop: "fill" %>
-                <div class="media-links">
-                  <div class="links-wrap">
-                    <a class="link-zoom photoswipe-link" title="" href="https://res.cloudinary.com/rgm-ibiza-metal/image/upload/v1620801938/puertas_pds_can_dreams_kv1bqu.jpg"></a>
-                    <%= link_to "", gallery_single_path, class: "link-anchor"  %>
-                  </div>
-                </div>
-              </div>
-              <div class="item-content gradientdarken-background">
-                <h4>
-                  <%= link_to "Lorem ipsum dolor sit", gallery_single_path, class: "link-anchor"  %>
-                </h4>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-xl-4 col-md-6 col-12 facades perforated">
-            <div class="vertical-item item-gallery content-absolute text-center ds">
-              <div class="item-media">
-                <%= cl_image_tag "IMG_20181115_180301_646_lqfy1u", height: 480, width: 480, crop: "fill" %>
-                <div class="media-links">
-                  <div class="links-wrap">
-                    <a class="link-zoom photoswipe-link" title="" href="https://res.cloudinary.com/rgm-ibiza-metal/image/upload/v1620801936/IMG_20181115_180301_646_lqfy1u.jpg"></a>
-                    <%= link_to "", gallery_single_path, class: "link-anchor"  %>
-                  </div>
-                </div>
-              </div>
-              <div class="item-content gradientdarken-background">
-                <h4>
-                  <%= link_to "Lorem ipsum dolor sit", gallery_single_path, class: "link-anchor"  %>
-                </h4>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-xl-4 col-md-6 col-12 railings decorative">
-            <div class="vertical-item item-gallery content-absolute text-center ds">
-              <div class="item-media">
-                <%= cl_image_tag "IMG-20181219-WA0032_znqri6", height: 480, width: 480, crop: "fill" %>
-                <div class="media-links">
-                  <div class="links-wrap">
-                    <a class="link-zoom photoswipe-link" title="" href="https://res.cloudinary.com/rgm-ibiza-metal/image/upload/v1620801937/IMG-20181219-WA0032_znqri6.jpg"></a>
-                    <%= link_to "", gallery_single_path, class: "link-anchor"  %>
-                  </div>
-                </div>
-              </div>
-              <div class="item-content gradientdarken-background">
-                <h4>
-                  <%= link_to "Lorem ipsum dolor sit", gallery_single_path, class: "link-anchor"  %>
-                </h4>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-xl-4 col-md-6 col-12 perforated  decorative">
-            <div class="vertical-item item-gallery content-absolute text-center ds">
-              <div class="item-media">
-                <%= cl_image_tag "maneta_cristal_media_altura_lumon_0_e8p7ih", height: 480, width: 480, crop: "fill" %>
-                <div class="media-links">
-                  <div class="links-wrap">
-                    <a class="link-zoom photoswipe-link" title="" href="https://res.cloudinary.com/rgm-ibiza-metal/image/upload/v1620801937/maneta_cristal_media_altura_lumon_0_e8p7ih.jpg"></a>
-                    <%= link_to "", gallery_single_path, class: "link-anchor"  %>
-                  </div>
-                </div>
-              </div>
-              <div class="item-content gradientdarken-background">
-                <h4>
-                  <%= link_to "Lorem ipsum dolor sit", gallery_single_path, class: "link-anchor"  %>
-                </h4>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-xl-4 col-md-6 col-12 facades  railings">
-            <div class="vertical-item item-gallery content-absolute text-center ds">
-              <div class="item-media">
-                <%= cl_image_tag "rejas_en_acero_inox_casa_cala_de_bou_ltak6k", height: 480, width: 480, crop: "fill" %>
-                <div class="media-links">
-                  <div class="links-wrap">
-                    <a class="link-zoom photoswipe-link" title="" href="https://res.cloudinary.com/rgm-ibiza-metal/image/upload/v1620801937/rejas_en_acero_inox_casa_cala_de_bou_ltak6k.jpg"></a>
-                    <%= link_to "", gallery_single_path, class: "link-anchor"  %>
-                  </div>
-                </div>
-              </div>
-              <div class="item-content gradientdarken-background">
-                <h4>
-                  <%= link_to "Lorem ipsum dolor sit", gallery_single_path, class: "link-anchor"  %>
-                </h4>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-xl-4 col-md-6 col-12 facades perforated decorative">
-            <div class="vertical-item item-gallery content-absolute text-center ds">
-              <div class="item-media">
-                <%= cl_image_tag "estructura_metalica_peixma_ps3el1", height: 480, width: 480, crop: "fill" %>
-                <div class="media-links">
-                  <div class="links-wrap">
-                    <a class="link-zoom photoswipe-link" title="" href="https://res.cloudinary.com/rgm-ibiza-metal/image/upload/v1620801936/estructura_metalica_peixma_ps3el1.jpg"></a>
-                    <%= link_to "", gallery_single_path, class: "link-anchor"  %>
-                  </div>
-                </div>
-              </div>
-              <div class="item-content gradientdarken-background">
-                <h4>
-                  <%= link_to "Lorem ipsum dolor sit", gallery_single_path, class: "link-anchor"  %>
-                </h4>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-xl-4 col-md-6 col-12 facades ">
-
-            <div class="vertical-item item-gallery content-absolute text-center ds">
-              <div class="item-media">
-                <%= cl_image_tag "IMG-20180814-WA0018_ryptjq", height: 480, width: 480, crop: "fill" %>
-                <div class="media-links">
-                  <div class="links-wrap">
-                    <a class="link-zoom photoswipe-link" title="" href="https://res.cloudinary.com/rgm-ibiza-metal/image/upload/v1620801936/IMG-20180814-WA0018_ryptjq.jpg"></a>
-                    <%= link_to "", gallery_single_path, class: "link-anchor"  %>
-                  </div>
-                </div>
-              </div>
-              <div class="item-content gradientdarken-background">
-                <h4>
-                  <%= link_to "Lorem ipsum dolor sit", gallery_single_path, class: "link-anchor"  %>
-                </h4>
-              </div>
-            </div>
-
-          </div>
-
-          <div class="col-xl-4 col-md-6 col-12 railings decorative">
-            <div class="vertical-item item-gallery content-absolute text-center ds">
-              <div class="item-media">
-                <%= cl_image_tag "estructura_metalica_separacion_tipo_muro_lxbntk", height: 480, width: 480, crop: "fill" %>
-                <div class="media-links">
-                  <div class="links-wrap">
-                    <a class="link-zoom photoswipe-link" title="" href="https://res.cloudinary.com/rgm-ibiza-metal/image/upload/v1620801936/estructura_metalica_separacion_tipo_muro_lxbntk.jpg"></a>
-                    <%= link_to "", gallery_single_path, class: "link-anchor"  %>
-                  </div>
-                </div>
-              </div>
-              <div class="item-content gradientdarken-background">
-                <h4>
-                  <%= link_to "Lorem ipsum dolor sit", gallery_single_path, class: "link-anchor"  %>
-                </h4>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-xl-4 col-md-6 col-12 perforated  railings">
-            <div class="vertical-item item-gallery content-absolute text-center ds">
-              <div class="item-media">
-                <%= cl_image_tag "carpinteria_fachada_can_nebot_os2slr", height: 480, width: 480, crop: "fill" %>
-                <div class="media-links">
-                  <div class="links-wrap">
-                    <a class="link-zoom photoswipe-link" title="" href="https://res.cloudinary.com/rgm-ibiza-metal/image/upload/v1620801936/carpinteria_fachada_can_nebot_os2slr.jpg"></a>
-                    <%= link_to "", gallery_single_path, class: "link-anchor"  %>
-                  </div>
-                </div>
-              </div>
-              <div class="item-content gradientdarken-background">
-                <h4>
-                  <%= link_to "Lorem ipsum dolor sit", gallery_single_path, class: "link-anchor"  %>
-                </h4>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-xl-4 col-md-6 col-12 facades perforated">
-            <div class="vertical-item item-gallery content-absolute text-center ds">
-              <div class="item-media">
-                <%= cl_image_tag "cerramientos_lumon_terraza_s5a2bl", height: 480, width: 480, crop: "fill" %>
-                <div class="media-links">
-                  <div class="links-wrap">
-                    <a class="link-zoom photoswipe-link" title="" href="https://res.cloudinary.com/rgm-ibiza-metal/image/upload/v1620801936/cerramientos_lumon_terraza_s5a2bl.jpg"></a>
-                    <%= link_to "", gallery_single_path, class: "link-anchor"  %>
-                  </div>
-                </div>
-              </div>
-              <div class="item-content gradientdarken-background">
-                <h4>
-                  <%= link_to "Lorem ipsum dolor sit", gallery_single_path, class: "link-anchor"  %>
-                </h4>
-              </div>
-            </div>
-          </div>
+          <%= render 'images-carpinteria' %>
+          <%= render 'images-estructuras' %>
+          <%= render 'images-puertas' %>
+          <%= render 'images-muebles' %>
+          <%= render 'images-lumon' %>
+          <%= render 'images-barandillas' %>
 
         </div>
         <!-- .isotope-wrapper-->
-
-        <div class="row">
-          <div class="col-sm-12 text-center">
-            <nav class="navigation pagination gallery" role="navigation">
-              <h2 class="screen-reader-text">Posts navigation</h2>
-              <div class="nav-links">
-                <a class="prev page-numbers" href="gallery-title.html">
-                  <i class="fa fa-chevron-left"></i>
-                  <span class="screen-reader-text">Previous page</span>
-                </a>
-                <span class="page-numbers current">
-                  <span class="meta-nav screen-reader-text">Page </span>
-                  1
-                </span>
-                <a class="page-numbers" href="gallery-title.html">
-                  <span class="meta-nav screen-reader-text">Page </span>
-                  2
-                </a>
-                <a class="page-numbers" href="gallery-title.html">
-                  <span class="meta-nav screen-reader-text">Page </span>
-                  3
-                </a>
-                <a class="next page-numbers" href="gallery-title.html">
-                  <span class="screen-reader-text">Next page</span>
-                  <i class="fa fa-chevron-right"></i>
-                </a>
-              </div>
-            </nav>
-          </div>
-        </div>
 
       </div>
 
