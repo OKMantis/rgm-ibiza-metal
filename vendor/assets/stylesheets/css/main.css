@@ -14733,7 +14733,7 @@ body.active-side-header.slide-right .page_header_side {
 
 .page_slider h2 {
 	font-size: 60px;
-	font-weight: 900;
+	font-weight: 500 !important;
 	line-height: 1;
 	margin: 0;
 }
