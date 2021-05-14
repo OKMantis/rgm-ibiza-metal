@@ -5,8 +5,9 @@
       <div class="col-12 col-md-6 col-lg-3 animate" data-animation="fadeInUp">
 
         <div class="icon-box text-center">
-          <%#= image_tag "icon-01.png", alt: "alttext" %>
-
+          <%= link_to service_1_path, data: { turbolinks: false } do %>
+            <%= cl_image_tag "greg-rosenke-xoxnfVIE7Qw-unsplash_tnfvls", width: 200, height: 200, crop: "fill", style: "border-radius: 5px;" %>
+          <% end %>
           <h5>
             <%= link_to "Carpintería de aluminio y cristaleria", service_1_path, data: { turbolinks: false }  %>
           </h5>
@@ -22,8 +23,9 @@
       <div class="col-12 col-md-6 col-lg-3 animate" data-animation="fadeInUp">
 
         <div class="icon-box text-center">
-          <%#= image_tag "icon-02.png", alt: "alttext" %>
-
+          <%= link_to service_2_path, data: { turbolinks: false } do %>
+            <%= cl_image_tag "mark-potterton-sNVkn3507Oo-unsplash_f1i51p", width: 200, height: 200, crop: "fill", style: "border-radius: 5px;" %>
+          <% end %>
           <h5>
             <%= link_to "Estructuras metálicas", service_2_path, data: { turbolinks: false }  %>
           </h5>
@@ -39,8 +41,9 @@
       <div class="col-12 col-md-6 col-lg-3 animate" data-animation="fadeInUp">
 
         <div class="icon-box text-center">
-          <%#= image_tag "icon-03.png", alt: "alttext" %>
-
+          <%= link_to service_3_path, data: { turbolinks: false } do %>
+            <%= cl_image_tag "welding-67640_lsyzrz", width: 200, height: 200, crop: "fill", style: "border-radius: 5px;" %>
+          <% end %>
           <h5>
             <%= link_to "Soldadores", service_3_path, data: { turbolinks: false }  %>
           </h5>
@@ -56,8 +59,9 @@
       <div class="col-12 col-md-6 col-lg-3 animate" data-animation="fadeInUp">
 
         <div class="icon-box text-center">
-          <%#= image_tag "icon-04.png", alt: "alttext" %>
-
+          <%= link_to service_4_path, data: { turbolinks: false } do %>
+            <%= cl_image_tag "fotos-terrazas-024_ybgld2", width: 200, height: 200, crop: "fill", style: "border-radius: 5px;" %>
+          <% end %>
           <h5>
             <%= link_to "Cortinas de cristal LUMON", service_4_path, data: { turbolinks: false }  %>
           </h5>
@@ -73,7 +77,9 @@
       <div class="col-12 col-md-6 col-lg-3 animate" data-animation="fadeInUp">
 
         <div class="icon-box text-center">
-          <%#= image_tag "icon-04.png", alt: "alttext" %>
+          <%= link_to service_5_path, data: { turbolinks: false } do %>
+            <%= cl_image_tag "pawel-czerwinski-JF5QnRJ-icI-unsplash_iutbcd", width: 200, height: 200, crop: "fill", style: "border-radius: 5px;" %>
+          <% end %>
 
           <h5>
             <%= link_to "Muebles", service_5_path, data: { turbolinks: false }  %>
