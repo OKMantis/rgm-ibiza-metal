@@ -16654,7 +16654,7 @@ mark {
 }
 
 .contact-form.main-from {
-	/*background-image: url('form-bg.jpg');*/
+  background-image: url('https://res.cloudinary.com/rgm-ibiza-metal/image/upload/w_1920,h_1080,c_fill,g_center/santiago-steinkamp-t1zo-_yx5c0-unsplash_lhzfjn.jpg') !important;
 }
 
 h2.header-section {
