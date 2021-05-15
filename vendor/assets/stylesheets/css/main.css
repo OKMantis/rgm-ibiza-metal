@@ -14867,6 +14867,14 @@ body.active-side-header.slide-right .page_header_side {
 	width: 100%;
 }
 
+.intro_div {
+  padding: 0.5rem 0 !important;
+}
+
+.intro_div h2 {
+  font-size: 2.5rem !important;
+}
+
 @media (max-width: 1199px) {
 	.page_slider .intro_layers {
 		padding: 0;
@@ -14970,6 +14978,8 @@ body.active-side-header.slide-right .page_header_side {
 		font-size: 50px;
 		line-height: 0.9;
 		margin: 0;
+    margin-top: 0.5rem !important;
+    margin-bottom: 0.5rem !important;
 	}
 
 	.page_slider .intro_after_featured_word {
@@ -15036,7 +15046,7 @@ body.active-side-header.slide-right .page_header_side {
 	}
 
 	.page_slider .intro_featured_word {
-		font-size: 70px;
+		font-size: 65px !important;
 		font-weight: 900;
 		margin: 0;
 	}
