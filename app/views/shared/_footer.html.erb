@@ -65,21 +65,16 @@
 
         <div class="col-md-12 col-lg-4 text-center animate order-md-1 order-lg-2" data-animation="fadeInUp">
 
-          <div class="widget widget_text widget-logo">
-            <a href="./" class="logo flex-column">
+          <div class="widget widget_text widget-logo" style="height: 7rem;">
+            <%= link_to root_path, class: "logo flex-column" do  %>
               <%= cl_image_tag "logo-rgm_o34ajj", width: 400, height: 400 %>
-            </a>
-
-            <p>
-              At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr sed diam nonumy.
-            </p>
+            <% end %>
           </div>
 
           <div class="widget widget_social_buttons">
             <a href="#" class="fa fa-facebook color-icon border-icon rounded-icon" title="facebook"></a>
             <a href="#" class="fa fa-twitter color-icon border-icon rounded-icon" title="twitter"></a>
             <a href="#" class="fa fa-google color-icon border-icon rounded-icon" title="google"></a>
-
           </div>
         </div>
 
