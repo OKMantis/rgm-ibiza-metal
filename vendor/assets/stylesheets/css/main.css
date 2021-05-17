@@ -2133,13 +2133,24 @@ html[xmlns] .slides {
 
 .intro_layers:before {
 	border: 11px solid #f4f4f5;
-	bottom: 250px !important;
+	bottom: 18.5rem !important;
 	content: "";
-	height: 55% !important;
+	height: 30rem !important;
 	left: 206px;
 	position: absolute;
 	width: 65%;
   background: #0000009e !important;
+}
+
+@media (max-width: 1024px) {
+  .intro_layers:before {
+    bottom: 12rem !important;
+    height: 30rem !important;
+  }
+
+  .intro_div h2 {
+    font-size: 2rem !important;
+  }
 }
 
 @media (max-width: 991px) {
@@ -14892,7 +14903,7 @@ body.active-side-header.slide-right .page_header_side {
 }
 
 .intro_div h2 {
-  font-size: 2.5rem !important;
+  font-size: 2rem !important;
 }
 
 .background-slider {
@@ -14906,7 +14917,7 @@ body.active-side-header.slide-right .page_header_side {
 }
 
 .page_slider .flex-control-nav {
-	bottom: 31.5% !important;
+	bottom: 13.5rem !important;
 	-webkit-box-direction: normal;
 	-webkit-box-orient: horizontal;
 	-webkit-box-pack: center;
