@@ -2,7 +2,7 @@
 
 @import url("https://fonts.googleapis.com/css?family=Raleway:100,200,300,400,500,600,700,800,900");
 
-@import url("https://fonts.googleapis.com/css?family=Yesteryear");
+@import url("https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap");
 /**
 *** Table Of Contents
 **/
@@ -2133,12 +2133,13 @@ html[xmlns] .slides {
 
 .intro_layers:before {
 	border: 11px solid #f4f4f5;
-	bottom: 319px;
+	bottom: 295px !important;
 	content: "";
-	height: 37%;
+	height: 50% !important;
 	left: 206px;
 	position: absolute;
 	width: 65%;
+  background: #0000009e !important;
 }
 
 @media (max-width: 991px) {
@@ -14270,7 +14271,7 @@ a.logo img {
 }
 
 a.logo .logo-text {
-	font-family: "Yesteryear", sans-serif;
+	font-family: 'Kaushan Script', cursive !important;
 	font-size: 42px;
 	padding: 0 10px;
 }
@@ -14288,7 +14289,7 @@ a.logo .logo-subtext {
 }
 
 a.logo .logo-text-bottom {
-	font-family: "Yesteryear", sans-serif;
+	font-family: 'Kaushan Script', cursive !important;
 	font-size: 42px;
 }
 
@@ -14739,7 +14740,7 @@ body.active-side-header.slide-right .page_header_side {
 }
 
 .page_slider h3 {
-	font-family: "Yesteryear", sans-serif;
+	font-family: 'Kaushan Script', cursive !important;
 	font-size: 21px;
 	line-height: 1;
 	margin-top: 20px;
@@ -14868,7 +14869,18 @@ body.active-side-header.slide-right .page_header_side {
 }
 
 .intro_div {
-  padding: 0.5rem 0 !important;
+  padding-top: 0rem !important;
+  padding-bottom: 8rem !important;
+}
+
+.intro_div p {
+  color: white;
+  padding-bottom: 0.5rem;
+}
+
+.intro_logo {
+  padding-top: 0rem !important;
+  padding-bottom: 1.2rem !important;
 }
 
 .intro_div h2 {
@@ -14882,7 +14894,7 @@ body.active-side-header.slide-right .page_header_side {
 }
 
 .page_slider .flex-control-nav {
-	bottom: 31%;
+	bottom: 33% !important;
 	-webkit-box-direction: normal;
 	-webkit-box-orient: horizontal;
 	-webkit-box-pack: center;
@@ -14936,7 +14948,7 @@ body.active-side-header.slide-right .page_header_side {
 
 	.page_slider .intro_layers_wrapper {
 		bottom: 0;
-		height: 109%;
+		height: 100% !important;
 		left: 15px;
 		position: absolute;
 		right: -1px;
@@ -14976,7 +14988,7 @@ body.active-side-header.slide-right .page_header_side {
 
 	.page_slider .intro_featured_word {
 		font-size: 50px;
-		line-height: 0.9;
+		line-height: 1 !important;
 		margin: 0;
     margin-top: 0.5rem !important;
     margin-bottom: 0.5rem !important;
@@ -15040,7 +15052,7 @@ body.active-side-header.slide-right .page_header_side {
 
 @media (min-width: 1600px) {
 	.page_slider .intro_before_featured_word {
-		font-family: "Yesteryear", sans-serif;
+		font-family: 'Kaushan Script', cursive !important;
 		font-size: 24px;
 		margin-bottom: 30px;
 	}
