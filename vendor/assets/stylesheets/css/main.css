@@ -2142,6 +2142,26 @@ html[xmlns] .slides {
   background: #0000009e !important;
 }
 
+@media (max-width: 1500px) {
+  .intro_layers:before {
+    bottom: 13rem !important;
+    height: 30rem !important;
+  }
+}
+
+@media (max-width: 1900px) {
+  .intro_layers:before {
+    bottom: 18rem !important;
+    height: 30rem !important;
+  }
+}
+@media (min-width: 1901px) {
+  .intro_layers:before {
+    bottom: 19rem !important;
+    height: 30rem !important;
+  }
+}
+
 @media (max-width: 1281px) {
   .intro_layers:before {
     bottom: 18rem !important;
@@ -14939,9 +14959,9 @@ body.active-side-header.slide-right .page_header_side {
 	width: 101.3%;
 }
 
-@media (max-width: 991px) {
+@media (max-width: 1050px) {
 	.page_slider .flex-control-nav {
-		bottom: 5% !important;
+		bottom: 8.5rem !important;
 	}
 }
 
