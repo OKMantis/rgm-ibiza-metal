@@ -2133,13 +2133,20 @@ html[xmlns] .slides {
 
 .intro_layers:before {
 	border: 11px solid #f4f4f5;
-	bottom: 18.5rem !important;
+	bottom: 11.5rem !important;
 	content: "";
 	height: 30rem !important;
 	left: 206px;
 	position: absolute;
 	width: 65%;
   background: #0000009e !important;
+}
+
+@media (max-width: 1281px) {
+  .intro_layers:before {
+    bottom: 18rem !important;
+    height: 30rem !important;
+  }
 }
 
 @media (max-width: 1024px) {
