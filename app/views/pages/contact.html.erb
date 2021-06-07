@@ -1,0 +1,154 @@
+<%= render 'breadcrumbs' %>
+
+<section class="ds s-pt-75 s-pb-60 s-py-lg-75 c-gutter-60 container-px-30 contact layout-2">
+  <div class="container">
+    <div class="row">
+
+      <div class="divider-35 d-none d-xl-block"></div>
+
+      <div class="col-lg-8 animate" data-animation="scaleAppear">
+
+        <form class="contact-form c-mb-10 c-mb-lg-30 c-gutter-30" method="post" action="/">
+
+          <div class="row">
+
+            <div class="col-sm-12">
+              <h4 class="contact-title">Formulario de contacto</h4>
+            </div>
+          </div>
+
+          <div class="row">
+
+            <div class="col-sm-6">
+              <div class="form-group has-placeholder">
+                <label for="name">Nombre completo
+                  <span class="required">*</span>
+                </label>
+                <input type="text" aria-required="true" size="30" value="" name="name" id="name" class="form-control" placeholder="Nombre completo">
+              </div>
+            </div>
+            <div class="col-sm-6">
+              <div class="form-group has-placeholder">
+                <label for="phone">Tel.
+                  <span class="required">*</span>
+                </label>
+                <input type="text" aria-required="true" size="30" value="" name="phone" id="phone" class="form-control" placeholder="Tel.">
+              </div>
+            </div>
+
+          </div>
+
+          <div class="row">
+
+            <div class="col-sm-6">
+              <div class="form-group has-placeholder">
+                <label for="email">Correo electrónico
+                  <span class="required">*</span>
+                </label>
+                <input type="email" aria-required="true" size="30" value="" name="email" id="email" class="form-control" placeholder="Correo electrónico">
+              </div>
+            </div>
+            <div class="col-sm-6">
+              <div class="form-group has-placeholder">
+                <label for="subject">Asunto
+                  <span class="required">*</span>
+                </label>
+                <input type="text" aria-required="true" size="30" value="" name="subject" id="subject" class="form-control" placeholder="Asunto">
+              </div>
+            </div>
+
+          </div>
+
+          <div class="row">
+
+            <div class="col-sm-12">
+
+              <div class="form-group has-placeholder">
+                <label for="message">Mensaje</label>
+                <textarea aria-required="true" rows="6" cols="45" name="message" id="message" class="form-control" placeholder="Mensaje"></textarea>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="row">
+
+            <div class="col-sm-12">
+
+              <div class="form-group has-placeholder contact-group">
+                <button type="submit" id="contact_form_submit" name="contact_submit" class="btn btn-maincolor">Enviar
+                </button>
+              </div>
+            </div>
+
+          </div>
+
+        </form>
+      </div>
+      <!--.col-* -->
+
+      <div class="col-lg-4 info-column animate" data-animation="scaleAppear">
+
+        <h4 class="contact-title">Datos de contacto</h4>
+
+        <p class="icon-inline">
+          <span class="icon-styled color-main">
+            <i class="fa fa-map-marker"></i>
+          </span>
+          <span>C/ Río Ebro, 3 - Can Negre - Eivissa</span>
+        </p>
+
+        <p class="icon-inline">
+          <span class="icon-styled color-main">
+            <i class="fa fa-phone"></i>
+          </span>
+          <span>(+34) 663 825 365</span>
+        </p>
+        <p class="icon-inline">
+          <span class="icon-styled color-main">
+            <i class="fa fa-phone"></i>
+          </span>
+          <span>(+34) 655 019 569</span>
+        </p>
+
+        <p class="icon-inline">
+          <span class="icon-styled color-main">
+            <i class="fa fa-pencil"></i>
+          </span>
+          <span>rgmibizametal@gmail.com</span>
+
+        </p>
+        <div class="schedule-tab">
+          <h4 class="contact-title">Horario</h4>
+
+          <div class="row c-gutter-30 c-mb-15">
+            <div class="col-6">
+              <span class="icon-styled color-main pr-2">
+                <i class="fa fa-clock-o"></i>
+              </span>
+              <strong>Lunes-Viernes</strong>
+            </div>
+            <div class="col-6">
+              9:00-19:30
+            </div>
+
+            <div class="col-6">
+              <span class="icon-styled color-main pr-2">
+                <i class="fa fa-close"></i>
+              </span>
+              <strong>Sábado y Domingo</strong>
+            </div>
+            <div class="col-6">
+              Cerrado
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--.col-* -->
+
+
+      <div class="divider-40 d-none d-xl-block"></div>
+
+    </div>
+  </div>
+</section>
