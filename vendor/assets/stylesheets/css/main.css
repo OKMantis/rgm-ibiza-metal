@@ -1123,7 +1123,7 @@ input[type="radio"]:disabled + label:before {
 .btn {
 	border: 2px solid;
 	border-radius: 0;
-	font-size: 14px;
+	font-size: 1rem !important;
 	font-weight: 500;
 	letter-spacing: 0.2em;
 	line-height: 1.6em;
@@ -2040,9 +2040,9 @@ html[xmlns] .slides {
 	border-radius: 50%;
 	cursor: pointer;
 	display: block;
-	height: 6px;
+	height: 12px !important;
 	opacity: 1;
-	width: 6px;
+	width: 12px !important;
 }
 
 .ds .flex-control-paging li a,
@@ -15126,6 +15126,9 @@ body.active-side-header.slide-right .page_header_side {
 	.page_slider {
 		text-align: center;
 	}
+  .page_slider .flex-control-nav {
+    bottom: 4.5rem !important;
+  }
 }
 
 .flexslider-overlay {
@@ -16722,6 +16725,7 @@ mark {
 h2.header-section {
 	font-weight: 100;
 	margin-bottom: 42px;
+  text-shadow: 3px 2px #262626c9 !important;
 }
 
 @media (max-width: 991px) {
