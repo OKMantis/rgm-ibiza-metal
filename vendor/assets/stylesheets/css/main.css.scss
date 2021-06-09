@@ -1575,7 +1575,7 @@ h6 small {
 
 .owl-carousel .owl-video-play-icon {
 	-webkit-backface-visibility: hidden;
-	background: url("../img/owl.video.play.png") no-repeat;
+	background: image-url("img/owl.video.play.png") no-repeat !important;
 	cursor: pointer;
 	height: 80px;
 	left: 50%;
@@ -2464,28 +2464,28 @@ html[xmlns] .slides {
 	opacity: 1;
 }
 
-.pswp__button,
+/*.pswp__button,
 .pswp__button--arrow--left:before,
 .pswp__button--arrow--right:before {
-	background: url(../img/photoswipe/default-skin.png) 0 0 no-repeat;
+	background: image-url("img/photoswipe/default-skin.png") 0 0 no-repeat;
 	background-size: 264px 88px;
 	height: 44px;
 	width: 44px;
-}
+}*/
 
-@media (-webkit-min-device-pixel-ratio: 1.1), (-webkit-min-device-pixel-ratio: 1.09375), (min-resolution: 105dpi), (min-resolution: 1.1dppx) {
-	/* Serve SVG sprite if browser supports SVG and resolution is more than 105dpi */
+/*@media (-webkit-min-device-pixel-ratio: 1.1), (-webkit-min-device-pixel-ratio: 1.09375), (min-resolution: 105dpi), (min-resolution: 1.1dppx) {
+*/	/* Serve SVG sprite if browser supports SVG and resolution is more than 105dpi */
 	.pswp--svg .pswp__button,
 	.pswp--svg .pswp__button--arrow--left:before,
 	.pswp--svg .pswp__button--arrow--right:before {
-		background-image: url(../img/photoswipe/default-skin.svg);
+		background-image: image-url("img/photoswipe/default-skin.svg") !important;
 	}
 
 	.pswp--svg .pswp__button--arrow--left,
 	.pswp--svg .pswp__button--arrow--right {
-		background: none;
+		background: none !important;
 	}
-}
+/*}*/
 
 .pswp__button--close {
 	background-position: 0 -44px;
@@ -2786,7 +2786,7 @@ a.pswp__share--download:hover {
 
 .pswp__preloader--active .pswp__preloader__icn {
 	/* We use .gif in browsers that don't support CSS animation */
-	background: url(../img/photoswipe/preloader.gif) 0 0 no-repeat;
+	background: image-url("img/photoswipe/preloader.gif") 0 0 no-repeat !important;
 }
 
 .pswp--css_animation .pswp__preloader--active {
@@ -6137,11 +6137,11 @@ img {
 }
 
 .texture-background {
-	background-image: url(../img/background-texture-cover.jpg);
+	background-image: image-url("img/background-texture-cover.jpg") !important;
 }
 
 .pattern-background:before {
-	background-image: url(../img/patterns/pattern8.png);
+	background-image: image-url("img/patterns/pattern8.png") !important;
 }
 
 @media (min-width: 768px) {
@@ -6466,7 +6466,7 @@ img {
 }
 
 .preloader_image {
-	background: url(../img/preloader.gif) no-repeat 50% 50% transparent;
+	background: image-url("img/preloader.gif") no-repeat 50% 50% transparent !important;
 	height: 256px;
 	left: 50%;
 	margin: -128px 0 0 -128px;
@@ -6514,47 +6514,47 @@ body.boxed {
 }
 
 .pattern1 {
-	background-image: url(../img/patterns/pattern1.png);
+	background-image: image-url("img/patterns/pattern1.png") !important;
 }
 
 .pattern2 {
-	background-image: url(../img/patterns/pattern2.png);
+	background-image: image-url("img/patterns/pattern2.png") !important;
 }
 
 .pattern3 {
-	background-image: url(../img/patterns/pattern3.png);
+	background-image: image-url("img/patterns/pattern3.png") !important;
 }
 
 .pattern4 {
-	background-image: url(../img/patterns/pattern4.png);
+	background-image: image-url("img/patterns/pattern4.png") !important;
 }
 
 .pattern5 {
-	background-image: url(../img/patterns/pattern5.png);
+	background-image: image-url("img/patterns/pattern5.png") !important;
 }
 
 .pattern6 {
-	background-image: url(../img/patterns/pattern6.png);
+	background-image: image-url("img/patterns/pattern6.png") !important;
 }
 
 .pattern7 {
-	background-image: url(../img/patterns/pattern7.png);
+	background-image: image-url("img/patterns/pattern7.png") !important;
 }
 
 .pattern8 {
-	background-image: url(../img/patterns/pattern8.png);
+	background-image: image-url("img/patterns/pattern8.png") !important;
 }
 
 .pattern9 {
-	background-image: url(../img/patterns/pattern9.png);
+	background-image: image-url("img/patterns/pattern9.png") !important;
 }
 
 .pattern10 {
-	background-image: url(../img/patterns/pattern10.png);
+	background-image: image-url("img/patterns/pattern10.png") !important;
 }
 
 .pattern11 {
-	background-image: url(../img/patterns/pattern11.png);
+	background-image: image-url("img/patterns/pattern11.png") !important;
 }
 
 .boxed .container {
@@ -6588,19 +6588,19 @@ body.boxed {
 
 /*common background sections*/
 .s-map-dark {
-	background-image: url("../img/parallax/map-dark.jpg");
+	background-image: image-url("img/parallax/map-dark.jpg") !important;
 }
 
 .s-map-light {
-	background-image: url("../img/parallax/map-light.jpg");
+	background-image: image-url("img/parallax/map-light.jpg") !important;
 }
 
 .s-light-abstract {
-	background-image: url("../img/parallax/light-abstract.jpg");
+	background-image: image-url("img/parallax/light-abstract.jpg") !important;
 }
 
 .s-light-wood {
-	background-image: url("../img/parallax/light-wood.jpg");
+	background-image: image-url("img/parallax/light-wood.jpg") !important;
 }
 
 /*bordered columns*/
@@ -14396,7 +14396,7 @@ a.logo.flex-column.text-center {
 
 @media (min-width: 1200px) {
 	#search_modal .widget:before {
-		background: url("../images/logo.png") no-repeat 0 0;
+		background: image-url("images/logo.png") no-repeat 0 0 !important;
 		content: "";
 		height: 100px;
 		opacity: 0.2;
@@ -16217,12 +16217,12 @@ mark {
 
 .header_absolute.cover-background,
 .header_absolute.s-parallax {
-	background-image: url("../img/breadcrumbs.jpg");
+	background-image: image-url("img/breadcrumbs.jpg") !important;
 }
 
 .page_title.cover-background,
 .page_title.s-parallax {
-	background-image: url("../img/breadcrumbs.jpg");
+	background-image: image-url("img/breadcrumbs.jpg") !important;
 }
 
 .page_title h1,
@@ -16287,11 +16287,11 @@ mark {
 }
 
 .page_404 {
-	background-image: url("../img/404.jpg");
+	background-image: image-url("img/404.jpg") !important;
 }
 
 .page_comingsoon {
-	background-image: url("../img/404.jpg");
+	background-image: image-url("img/404.jpg") !important;
 }
 
 .page_map {
@@ -16355,7 +16355,7 @@ mark {
 }
 
 .page_footer.s-parallax {
-	background-image: url("../images/parallax/video_section_background.jpg");
+	background-image: image-url("images/parallax/video_section_background.jpg") !important;
 }
 
 @media (min-width: 576px) {
@@ -16420,7 +16420,7 @@ mark {
 
 .page_copyright.cover-background,
 .page_copyright.s-parallax {
-	background-image: url("../images/parallax/video_section_background.jpg");
+	background-image: image-url("images/parallax/video_section_background.jpg") !important;
 }
 
 .page_copyright.ds.ms,
