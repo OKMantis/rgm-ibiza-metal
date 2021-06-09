@@ -2464,17 +2464,17 @@ html[xmlns] .slides {
 	opacity: 1;
 }
 
-.pswp__button,
+/*.pswp__button,
 .pswp__button--arrow--left:before,
 .pswp__button--arrow--right:before {
 	background: image-url("img/photoswipe/default-skin.png") 0 0 no-repeat;
 	background-size: 264px 88px;
 	height: 44px;
 	width: 44px;
-}
+}*/
 
-@media (-webkit-min-device-pixel-ratio: 1.1), (-webkit-min-device-pixel-ratio: 1.09375), (min-resolution: 105dpi), (min-resolution: 1.1dppx) {
-	/* Serve SVG sprite if browser supports SVG and resolution is more than 105dpi */
+/*@media (-webkit-min-device-pixel-ratio: 1.1), (-webkit-min-device-pixel-ratio: 1.09375), (min-resolution: 105dpi), (min-resolution: 1.1dppx) {
+*/	/* Serve SVG sprite if browser supports SVG and resolution is more than 105dpi */
 	.pswp--svg .pswp__button,
 	.pswp--svg .pswp__button--arrow--left:before,
 	.pswp--svg .pswp__button--arrow--right:before {
@@ -2483,9 +2483,9 @@ html[xmlns] .slides {
 
 	.pswp--svg .pswp__button--arrow--left,
 	.pswp--svg .pswp__button--arrow--right {
-		background: none;
+		background: none !important;
 	}
-}
+/*}*/
 
 .pswp__button--close {
 	background-position: 0 -44px;
