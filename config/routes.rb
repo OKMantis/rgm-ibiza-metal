@@ -1,9 +1,9 @@
 Rails.application.routes.draw do
   devise_for :users
-  root to: 'pages#home'
+  root to: 'pages#coming_soon'
   # For details on the DSL available within this file, see https://guides.rubyonrails.org/routing.html
 
-
+  get 'home', to: 'pages#home', as: :home
   get 'service_1', to: 'pages#service_1', as: :service_1
   get 'service_2', to: 'pages#service_2', as: :service_2
   get 'service_3', to: 'pages#service_3', as: :service_3

@@ -1,5 +1,7 @@
 class PagesController < ApplicationController
   skip_before_action :authenticate_user!
+  layout false, only: :coming_soon
+
 
   def home
   end
@@ -29,5 +31,8 @@ class PagesController < ApplicationController
   end
 
   def contact
+  end
+
+  def coming_soon
   end
 end
