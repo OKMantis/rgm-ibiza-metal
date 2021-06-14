@@ -24,6 +24,7 @@
    <%= stylesheet_link_tag 'base', media: 'all', 'data-turbolinks-track': 'reload' %>
    <%= stylesheet_link_tag 'vendor', media: 'all', 'data-turbolinks-track': 'reload' %>
    <%= stylesheet_link_tag 'main_coming_soon', media: 'all', 'data-turbolinks-track': 'reload' %>
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
    <!-- Modernizr
    =================================================== -->
@@ -58,23 +59,22 @@
 
             <div id="main-content" class="twelve columns">
 
-               <h1>Our website is almost ready.</h1>
+               <h1>Nuestro sitio web está casi listo.</h1>
 
-               <p> Lorem ipsum dolor sit amet, consectetuer adipiscing. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin,
-                  lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit.
+               <p> Bienvenido a www.rgmibizametal.com. Nuestro sitio web se encuentra actualmente en construcción, pero esperamos volver a darle la bienvenida pronto con el lanzamiento de nuestro nuevo sitio web. Mientras tanto, si está interesado en nuestros servicios o tiene una pregunta general, envíe un correo electrónico a <%= mail_to "rgmibizametal@gmail.com", "rgmibizametal@gmail.com" %>.
                </p>
 
                <hr>
-
+<!--
                <div id="counter" class="group">
                   <span>134 <em>days</em></span>
                   <span>12 <em>hours</em></span>
                   <span>50 <em>minutes</em></span>
                   <span>33 <em>seconds</em></span>
-               </div>
+               </div> -->
 
                <!-- MailChimp Signup Form -->
-               <div id="mc-signup">
+<!--                <div id="mc-signup">
 
                   <form id="mc-form" class="group">
 
@@ -85,15 +85,15 @@
                      <label for="mce-EMAIL" class="subscribe-message"></label>
 
                   </form>
-
-               </div> <!-- /sign-up form -->
+               </div>  -->
+               <!-- /sign-up form -->
 
             </div><!-- /main-content form -->
 
             <div class="modal-toggles">
                <ul>
-                    <li class="about-us"><a href="#mod-about">More about us</a></li>
-                    <li class="location"><a href="#mod-map">Our Location</a></li>
+                    <li class="about-us"><a href="#mod-about">Más sobre nosotros</a></li>
+                    <!-- <li class="location"><a href="#mod-map">Nuestro ubicación</a></li> -->
                </ul>
             </div><!-- /modal-toggles -->
 
@@ -120,7 +120,7 @@
             <i class="icon"></i>
          </div>
 
-        <h1>About Us.</h1>
+        <h1>Sobre nosotros</h1>
 
       </div>
 
@@ -129,30 +129,27 @@
     <div class="row about-content">
 
       <div class="six columns mob-whole">
-        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam,
-        eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
+        <p>Nuestro equipo humano está dirigido y asesorado por un  experto en fabricación y uso de los materiales tanto hierro, acero inox como aluminio.
         </p>
-
-        <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin,
-        lorem quis bibendum auctor, natus error sit voluptatem accusantium nisi elit et quasi architecto beatae vitae dicta sunt explicabo.
-        </p>
+        <i>"Le avala una experiencia y profesionalidad de más de 45 años."</i>
       </div>
 
       <div class="six columns mob-whole contact">
 
-         <h3>Contact Numbers:</h3>
-         <p>Phone: (000) 555 1212<br>
-            Mobile: (000) 555 0100<br>
-            Fax: (000) 555 0101</p>
+          <h3>Contacto:</h3>
+          <p>
+            Móvil 1: (+34) 663 825 365<br>
+            Móvil 2: (+34) 655 019 569<br>
+          </p>
 
          <h3>Email:</h3>
-         <p>UzumakiNaruto@yoursite.com<br>
-          HarunoSakura@yoursite.com
+         <p><%= mail_to "rgmibizametal@gmail.com", "rgmibizametal@gmail.com" %>
          </p>
 
-         <h3>Address:</h3>
-         <p>5th Avenue, Fort Bonifacio, Taguig<br>
-        Metro Manila, Philippines
+         <h3>Dirección:</h3>
+         <p>
+            C/ Río Ebro, 3 - Can Negre <br>
+            Eivissa
          </p>
 
       </div>
@@ -166,35 +163,27 @@
        <ul id="owl-slider" class="owl-carousel">
             <li class="item s-photography">
                 <span class="slider-icon"></span>
-                <p>Photography</p>
+                <p>Estructuras metálicas</p>
             </li>
             <li class="item s-digital-media">
                 <span class="slider-icon"></span>
-                <p>Digital Media</p>
+                <p>Soldadores homologados ISO 9606-1</p>
             </li>
             <li class="item s-marketing">
                 <span class="slider-icon"></span>
-                <p>Marketing</p>
+                <p>Acero inox</p>
             </li>
             <li class="item s-packaging">
                 <span class="slider-icon"></span>
-                <p>Packaging</p>
+                <p>Aluminio</p>
             </li>
             <li class="item s-videography">
                 <span class="slider-icon"></span>
-                <p>Videography</p>
+                <p>Acristalamientosy</p>
             </li>
             <li class="item s-webdesign">
                 <span class="slider-icon"></span>
-                <p>Web Design</p>
-            </li>
-            <li class="item s-branding">
-               <span class="slider-icon"></span>
-               <p>Branding</p>
-            </li>
-            <li class="item s-web-development">
-                <span class="slider-icon"></span>
-                <p>Web Development</p>
+                <p>Hierro</p>
             </li>
          </ul>
 
@@ -227,7 +216,7 @@
    <footer class="group">
 
       <ul class="footer-social">
-         <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+         <li><a href="https://www.facebook.com/rgmibizametalico" target="_blank"><i class="fab fa-facebook"></i></a></li>
          <li><a href="#"><i class="fa fa-twitter"></i></a></li>
          <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
          <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
@@ -258,6 +247,7 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-placeholder/2.3.1/jquery.placeholder.min.js" integrity="sha512-iGsoQ13Qj6qYWj02Un9ZyHJwocDoBDRA8eAYrSlZ98C7kwBkAqW7AUFv0g99NFp3xW9Gr1qaTqjMWBzXswydOw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.js" integrity="sha512-9CWGXFSJ+/X0LWzSRCZFsOPhSfm6jbnL+Mpqo0o8Ke2SYr8rCTqb4/wGm+9n13HtDE1NQpAEOrMecDZw4FXQGg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-ajaxchimp/1.3.0/jquery.ajaxchimp.min.js" integrity="sha512-5yj5elY9u6clGe9/97bj3jJlw8+O9XSv/tbme8m/LR8cKnnT5+rR8qHW/UYQ/MozLg3cvTHeYIpM5kRktASSbg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
 <%= javascript_include_tag :main_coming_soon %>
 
 <!-- <script src="js/jquery-1.11.3.min.js"></script>

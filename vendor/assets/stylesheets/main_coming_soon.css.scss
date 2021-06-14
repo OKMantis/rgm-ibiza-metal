@@ -18,8 +18,8 @@
 /* 
 /* 01. =webfonts and iconfonts
 /* =================================================================== */
-@import asset-url("fonts.css");
-@import asset-url("font-awesome/css/font-awesome.min.css");
+@import url("fonts.css");
+@import url("font-awesome.min.css");
 
 /* 
 /* 02. =document setup
