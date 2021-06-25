@@ -173,14 +173,14 @@ mark {
 .header_absolute {
   &.cover-background,
   &.s-parallax {
-    background-image: url("../img/breadcrumbs.jpg")
+    background-image: image-url("breadcrumbs.jpg")
   }
 }
 
 .page_title {
   &.cover-background,
   &.s-parallax {
-    background-image: url("../img/breadcrumbs.jpg")
+    background-image: image-url("breadcrumbs.jpg")
   }
   h1,
   h2 {
@@ -230,11 +230,11 @@ mark {
 }
 
 .page_404 {
-  background-image: url("../img/404.jpg");
+  background-image: image-url("404.jpg");
 }
 
 .page_comingsoon {
-  background-image: url("../img/404.jpg");
+  background-image: image-url("404.jpg");
 }
 
 .page_map {
@@ -296,7 +296,7 @@ mark {
   overflow: hidden;
 
   &.s-parallax {
-    background-image: url("../images/parallax/video_section_background.jpg");
+    background-image: image-url("video_section_background.jpg");
   }
 
   /*overriding Bootstrap Addons buttons*/
@@ -353,7 +353,7 @@ mark {
   }
   &.cover-background,
   &.s-parallax {
-    background-image: url("../images/parallax/video_section_background.jpg");
+    background-image: image-url("video_section_background.jpg");
   }
   &.ds.ms, &.ds {
     color: #fff;
@@ -457,7 +457,7 @@ mark {
 }
 
 .breadcrumbs {
-  background-image: url('<%= cl_image_path "shutterstock_52543036_rw187q" %>');
+  background-image: image-url("breadcrumbs.jpg");
 }
 
 .single-service {
@@ -585,6 +585,10 @@ mark {
  @media (max-width: 767px) {
     margin-left: -5px;
   }
+}
+
+.contact-form.main-from {
+  background-image: image-url("form-bg.jpg");
 }
 
 h2.header-section {
