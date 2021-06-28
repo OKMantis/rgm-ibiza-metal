@@ -5,17 +5,29 @@
         <div class="row justify-content-center gallery-filters">
           <div class="col-md-10 col-xl-5">
             <div class="filters small-text text-lg-right">
-              <a href="#" data-filter="*" class="active selected">Todos</a>
-              <a href="#" data-filter=".carpinteria">carpintería de aluminio</a>
+              <a href="#" data-filter="*" class="active selected">Portfolio</a>
+              <a href="#" data-filter=".carpinteria">aluminio y cristalería</a>
               <a href="#" data-filter=".estructuras">estructuras metálicas</a>
               <a href="#" data-filter=".puertas">puertas</a>
               <a href="#" data-filter=".muebles">muebles</a>
               <a href="#" data-filter=".lumon">cristal de LUMON</a>
+              <a href="#" data-filter=".acero">acero inoxidable</a>
             </div>
           </div>
         </div>
         <div class="row isotope-wrapper masonry-layout c-gutter-0 c-mb-0" data-filters=".gallery-filters">
-          <!-- Carpinteria start -->
+
+          <!-- Carpinteria de aluminio start -->
+          <div class="col-xl-3 col-sm-6 carpinteria">
+            <div class="vertical-item item-gallery content-absolute text-center">
+              <div class="item-media ds">
+                <%= link_to gallery_path, data: { turbolinks: false } do  %>
+                  <%= cl_image_tag "mallorquinas_rptrdx", height: 480, width: 480, crop: "fill" %>
+                <% end %>
+              </div>
+            </div>
+          </div>
+
           <div class="col-xl-3 col-sm-6 carpinteria">
             <div class="vertical-item item-gallery content-absolute text-center">
               <div class="item-media ds">
@@ -25,6 +37,7 @@
               </div>
             </div>
           </div>
+
           <div class="col-xl-3 col-sm-6 carpinteria">
             <div class="vertical-item item-gallery content-absolute text-center">
               <div class="item-media ds">
@@ -43,7 +56,7 @@
               </div>
             </div>
           </div>
-          <!-- Carpinteria end -->
+          <!-- Carpinteria de aluminio end -->
           <!-- Estructuras start -->
           <div class="col-xl-3 col-sm-6 estructuras">
             <div class="vertical-item item-gallery content-absolute text-center ds">
