@@ -2184,14 +2184,14 @@ html[xmlns] .slides {
 }
 
 .intro_layers:before {
-  border: 11px solid #f4f4f5;
+  border: none !important;
   bottom: 11.5rem !important;
   content: "";
   height: 30rem !important;
   left: 206px;
   position: absolute;
   width: 65%;
-  background: #0000009e !important;
+  background: none;
 }
 
 @media (max-width: 1500px) {
@@ -14971,6 +14971,7 @@ body.active-side-header.slide-right .page_header_side {
 .intro_div p {
   color: white;
   padding-bottom: 0.5rem;
+  text-shadow: 1px 1px black;
 }
 
 .intro_logo {
