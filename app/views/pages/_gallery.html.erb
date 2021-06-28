@@ -125,6 +125,16 @@
               </div>
             </div>
           </div>
+          <div class="col-xl-3 col-sm-6 muebles">
+            <div class="vertical-item item-gallery content-absolute text-center ds">
+              <div class="item-media">
+                <%= link_to gallery_path, data: { turbolinks: false } do  %>
+                  <%= cl_image_tag "mueble-2", height: 480, width: 480, crop: "fill" %>
+                <% end %>
+              </div>
+            </div>
+          </div>
+
           <!-- Muebles end -->
           <!-- Lumon start -->
           <div class="col-xl-3 col-sm-6 lumon">
