@@ -14966,8 +14966,8 @@ body.active-side-header.slide-right .page_header_side {
 }
 
 .intro_div {
-  padding-top: 0rem !important;
-  padding-bottom: 8rem !important;
+  padding-top: 0rem;
+  padding-bottom: 6rem;
 }
 
 .intro_div p {
@@ -15001,7 +15001,7 @@ body.active-side-header.slide-right .page_header_side {
 }
 
 .page_slider .flex-control-nav {
-  bottom: 13.5rem !important;
+  bottom: 13.5rem;
   -webkit-box-direction: normal;
   -webkit-box-orient: horizontal;
   -webkit-box-pack: center;
@@ -15018,7 +15018,7 @@ body.active-side-header.slide-right .page_header_side {
 
 @media (max-width: 1050px) {
   .page_slider .flex-control-nav {
-    bottom: 8.5rem !important;
+    bottom: 8.5rem;
   }
 }
 
@@ -15184,7 +15184,7 @@ body.active-side-header.slide-right .page_header_side {
     text-align: center;
   }
   .page_slider .flex-control-nav {
-    bottom: 4.5rem !important;
+    bottom: 4.5rem;
   }
 }
 
