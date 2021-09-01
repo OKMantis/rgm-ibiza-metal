@@ -10142,7 +10142,7 @@ aside > * + * {
 
 @media (max-width: 767px) {
   .widget-logo a.logo img {
-    max-height: 80px;
+    max-height: 200px;
   }
 }
 
@@ -14354,7 +14354,7 @@ a.logo {
 
 a.logo img {
   display: inline-block;
-  max-height: 80px;
+  max-height: 200px;
 }
 
 @media (max-width: 767px) {
